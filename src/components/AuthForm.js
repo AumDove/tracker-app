@@ -29,7 +29,6 @@ const AuthForm = ({ headerText, errorMessage, onSubmit, submitButtonText }) => {
 				value={password}
 				onChangeText={setPassword}
 			/>
-			<Spacer />
 
 			{errorMessage ? (
 				<Text style={styles.errorMessage}>{errorMessage}</Text>
